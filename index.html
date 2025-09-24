@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Timeline</title>
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+    <div class="bg-grid"></div>
+    
+    <!-- Matrix rain effect -->
+    <div class="matrix-rain" id="matrixRain"></div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="project-title"> Crowdsourced Civic Issue Reporting and Resolution System</h1>
+            <p class="project-subtitle">SIH Project By Team Civic Crew</p>
+
+        </div>
+        <div class="hero-video">
+            <div class="video-container">
+                <video id="demoVideo" width="100%" height="100%" style="border-radius: 25px;" muted>
+                    <source src="assets/demo-video.mp4" type="video/mp4">
+                    <div class="video-placeholder">
+                        <p>DEMO_VIDEO.mp4</p>
+                        <p style="font-size: 0.8rem; margin-top: 10px; opacity: 0.7;">Your browser does not support the video tag.</p>
+                    </div>
+                </video>
+                <div class="custom-play-btn" id="playPauseBtn">
+                    <span id="playIcon">▶</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <p>scroll.down() → timeline_data ↓</p>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline-section">
+        <div class="timeline-header">
+            <h2>PROJECT TIMELINE</h2>
+            <p>Our Project Development Path</p>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-line"></div>
+
+             <div class="timeline-item">
+                <div class="timeline-number">00</div>
+                <div class="timeline-card">
+                    <div class="card-header">
+                        <h3 class="card-title">Problem Selection</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>We selected the problem of civic issue reporting and resolution.</p>
+                        <ul class="card-features">
+                            <li><a href="https://docs.google.com/spreadsheets/d/19ubLYhkCrBXE6dvQXj2fwzzsX3dyItRSq9YzMIOpeXc/edit?gid=0#gid=0">Problem Selection Sheet</a></li>
+                        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-number">01</div>
+                <div class="timeline-card">
+                    <div class="card-header">
+                        <h3 class="card-title">Understanding the Problem</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>We identified the core issues to be solved.</p>
+                        <ul class="card-features">
+                            <li><a href="assets/brd/brd.pdf">Business Requirements Document</a></li>
+                        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+             <div class="timeline-item">
+                <div class="timeline-number">02</div>
+                <div class="timeline-card">
+                    <div class="card-header">
+                        <h3 class="card-title">Stakeholder Analysis</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>We analyzed stakeholders and their needs.</p>
+                        <ul class="card-features">
+                            <li><a href="assets/stakeholder-analysis/stakeholder-analysis.pdf">Stakeholder Analysis Document</a></li>
+                        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-number">03</div>
+                <div class="timeline-card">
+                    <div class="card-header">
+                        <h3 class="card-title">Comparative Analysis</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>We reviewed existing systems for insights.</p>
+                        <ul class="card-features">
+                            <li><a href="assets/comparative-analysis/everything-civic.pdf">Analysis of Everything Civic CRMs</a></li>
+                            <li><a href="assets/comparative-analysis/open-311.pdf">Analysis of Open-311 Systems</a></li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-number">04</div>
+                <div class="timeline-card">
+                    <div class="card-header">
+                        <h3 class="card-title">Requirement Collection</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>We gathered and finalized system requirements.</p>
+                        <ul class="card-features">
+                            <li><a href="assets/srs/srs.pdf">Software Requirements Specification</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-number">05</div>
+                <div class="timeline-card">
+                    <div class="card-header">
+                        <h3 class="card-title">Feasibility and Viability Analysis</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>We analyzed the feasibility and viability of the system.</p>
+                        <ul class="card-features">
+                            <li><a href="assets/feasibility-analysis.pdf">Feasibility Analysis Report</a></li>
+                            <li><a href="assets/viability-analysis.pdf">Viability Analysis Report</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-number">06</div>
+                <div class="timeline-card">
+                    <div class="card-header">
+                        <h3 class="card-title">Architecture Design</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>We designed the overall system structure.</p>
+                        <ul class="card-features">
+                            <li><a href="assets/architecture-diagrams/data-flow-diagram.pdf">Data Flow Diagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-number">07</div>
+                <div class="timeline-card">
+                    <div class="card-header">
+                        <h3 class="card-title">UI/UX Design</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>We crafted intuitive and user-friendly designs.</p>
+                        <ul class="card-features">
+                            <li><a href="assets/wireframes/mobile-application.pdf">Mobile Application Wire-frame</a></li>
+                            <li><a href="assets/wireframes/admin-portal.pdf">Admin Portal Wire-frame</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-number">08</div>
+                <div class="timeline-card">
+                    <div class="card-header">
+                        <h3 class="card-title">Frontend Development</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>We developed the interactive user interface.</p>
+                        <ul class="card-features">
+                            <li><a href="https://github.com/ashraddhansh/civic-app-frontend">Frontend GitHub Repository</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-number">09</div>
+                <div class="timeline-card">
+                    <div class="card-header">
+                        <h3 class="card-title">Backend Development</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>We built the core logic and database.</p>
+                        <ul class="card-features">
+                            <li><a href="https://github.com/ashraddhansh/civic-ops">Backend GitHub Repository</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-number">10</div>
+                <div class="timeline-card">
+                    <div class="card-header">
+                        <h3 class="card-title">Deployment</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>frontend</p>
+                        <ul class="card-features">
+                            <li><a href="https://civic-app-frontend.vercel.app/login">First Prototype URL</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
