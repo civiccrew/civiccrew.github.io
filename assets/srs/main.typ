@@ -9,13 +9,7 @@ margin: 1in)
 #set text(11pt)
 #set text(font: "Liberation Sans")
 
-#set page(header: [
-  _Software Requirement Specifications_
-  #h(1fr)
-  Team Civic Crew
-])
 
-#lorem(150)
 
 #v(15%)
 #text(25pt, red)[*CROWDSOURCED\ CIVIC ISSUE REPORTING AND\ RESOLUTION SYSTEM*]
@@ -25,6 +19,11 @@ margin: 1in)
 #pagebreak()
 #outline(indent: 3em)
 #pagebreak()
+#set page(header: [
+  _Software Requirement Specifications_
+  #h(1fr)
+  Team Civic Crew
+])
 
 = INTRODUCTION
 
